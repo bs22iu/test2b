@@ -107,11 +107,13 @@ img {
 header.sidebar  {
   width:270px;
   float:left;
+  position:fixed;
 }
 
 header {
   width:270px;
   float:left;
+  position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -239,7 +241,7 @@ footer {
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
-    overflow-y: scroll;
+    /*overflow-y: auto;*/
   }
 
   header a small {
@@ -277,12 +279,12 @@ footer {
 
   header {
     padding:0;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
   }
 
   header ul, header p.view {
     position:static;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
   }
 
   pre, code {
