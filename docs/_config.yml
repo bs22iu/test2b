@@ -16,7 +16,7 @@ kramdown:
   syntax_highlighter: rouge
 
 
-baseurl: '/test1b'
+baseurl: '/test2b'
 
 
 ## Navigation
