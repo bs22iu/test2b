@@ -1,0 +1,36 @@
+theme: jekyll-theme-minimal
+title: Indiana University Network Science Institute
+description: Project Documentation
+
+# logo: "assets/favicon-194x194.png" # path of site logo, e.g. "/assets/images/logo.png"
+logo: "assets/favicon_76.png"
+
+# Build settings
+#include: ["_pages", "pages"]
+### include: - _pages
+
+markdown: kramdown
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+
+baseurl: '/test1b'
+
+
+## Navigation
+## List links that should appear in the site sidebar here
+# navigation:
+# - text: Introduction
+#   internal: true
+#   url: ./
+# - text: Add a new page
+#   internal: true
+#   url: add-a-new-page
+# - text: Configure the Guide
+#   internal: true
+#   url: configure-the-guide
+# - text: GitHub Setup
+#   internal: true
+#   url: github
